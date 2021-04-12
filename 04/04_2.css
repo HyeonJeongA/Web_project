@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cute+Font&display=swap');
+
+body {
+    background-color: rgb(255, 221, 221);
+    margin: 90px;
+    border-style:solid;
+    padding: 20px;
+    width: 800px;
+    font-family: 'Cute Font', cursive;
+}
+
+#title h1{
+    font-size: 2.8em;
+    text-align: center;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, td {
+    text-align: center;
+    font-size: 1.3em;
+    border:1px solid rgb(97, 97, 97);
+  }
+  td {
+    padding:10px 20px;
+  }
+  td:last-child{
+    width:300px;
+  }
