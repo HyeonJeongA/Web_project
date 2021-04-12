@@ -1,0 +1,14 @@
+.video {
+  padding: 10px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  border: 3px solid;
+  margin: 30px;
+}
+
+.text {
+  margin-top: 15px;
+}

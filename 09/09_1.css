@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+* {
+    width: 800px;
+    font-family: 'Gugi', cursive;
+}
+
+body {
+    background-image: url('images/bg2.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    width:900px;
+    height:200px;
+    padding: 20px;
+    border: 25px  solid rgba(204, 204, 204, 0.493);        
+    margin-bottom:30px;
+    overflow:auto;
+    background-image:url('images/bg3.png'); 
+    background-repeat:no-repeat;     
+    background-position:right top; 
+  }
+
+#bg1 {   /*패딩까지 이미지 나타냄*/
+      background-origin: padding-box;
+}
+
+#bg2 {  /*테두리까지 이미지 나타냄*/
+    background-origin: border-box;
+}
+
+#bg3 {  /*내용까지 이미지 나타냄*/
+    background-origin: content-box;
+}
