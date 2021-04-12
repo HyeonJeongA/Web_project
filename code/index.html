@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>개발 테스트</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/7c3a5f6217.js" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/926fe18a63.js"></script>
+
+	</head>
+<body>
+
+<header>
+
+<div class="container">
+	<div class="container-small">
+		<a href="#" class="headA">HAPPY</a>		
+	</div>
+
+	<!-- headB -->
+	<nav class="headB">
+		<ul class="headB_nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Contents</a></li>
+			<li><a href="#">Abount</a></li>
+			<li><a href="#">Question</a></li>
+		</ul>
+
+		<!-- toggleBtn-->
+		<a href="#" class="toggleBtn">
+			<i class="fas fa-bars"></i>
+		</a>
+	</nav>
+
+	
+</div>
+</header>
+
+<section class="contA">
+	<div class="container">
+		<img src="img/logo.svg" alt="">
+		<h1>HAPPY</h1>
+		<p>Delicious and fun life log</p>
+		<a href="#">Getting started with lifelog</a>
+	</div>
+</section>
+
+<script>
+	var togglebtn = document.querySelector('.toggleBtn');	
+	var headBnav = document.querySelector('.headB_nav');
+
+	togglebtn.addEventListener('click', () => {
+		headBnav.classList.toggle('active');
+	});
+</script>
+
+
+</body>
+</html>
