@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(215, 248, 196, 0.342);
+}
+
+h1 {
+  font-size: 45px;
+  color: rgb(8, 20, 1);
+  margin: 20px 200px;
+  border: 2px solid;
+}
+
+b {
+  font-size: 30px;
+}
