@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  text-decoration: none; /*밑줄 없애기*/
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.headback {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.headlogo {
+  margin-left: 25px;
+  position: absolute;
+  top: 60px;
+}
+
+.headnav {
+  width: 5px;
+}
+
+.headnav ul {
+  position: absolute;
+  width: 800px;
+  top: 60px;
+  right: 50px;
+}
+
+.headnav ul li {
+  list-style: none; /*점 없애기*/
+  float: left; /*옆으로 정렬*/
+  border-left: 2px solid #999; /*중간에 막대기 넣기*/
+}
+
+.headnav ul li:first-child {
+  /*첫번째 막대기 없애기*/
+  border-left: none;
+}
+
+.headnav ul li a {
+  color: white; /*글자 색상*/
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.1em;
+}
+
+.head_h1 {
+  position: absolute;
+  color: white;
+  font-size: 2.5em;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec_nav ul {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec_nav ul li {
+  list-style: none; /*점 없애기*/
+  float: left; /*옆으로 정렬*/
+  border-bottom: 5px solid #999; /*중간에 막대기 넣기*/
+}
+
+.sec_nav ul li a {
+  color: rgb(7, 6, 6); /*글자 색상*/
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.4em;
+}
+
+.sec_nav ul li:first-child {
+  /*첫번째 막대 색깔 파란색으로*/
+  border-bottom: 5px solid rgb(37, 56, 165);
+}
+
+.hr1 {
+  width: 99.8%;
+  position: absolute;
+  top: 510px;
+}
+
+h2 {
+  position: absolute;
+  font-size: 1.5em;
+  top: 650px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h3 {
+  position: absolute;
+  font-size: 2.5em;
+  top: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec_pic ul {
+  width: 1280px;
+  position: absolute;
+  top: 840px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec_pic ul li {
+  list-style: none;
+  float: left;
+}
+
+.sec_pic ul li a {
+  padding: 10px;
+}
+
+.sec_menu ul {
+  width: 1050px;
+  position: absolute;
+  top: 1150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec_menu ul li {
+  background-color: rgb(223, 222, 222);
+  padding-top: 10px;
+  text-align: center;
+  width: 170px;
+  height: 30px;
+  list-style: none;
+  float: left;
+}
+
+.sec_menu ul li a {
+  color: rgb(0, 0, 0); /*글자 색상*/
+  padding-left: 40px;
+  padding-right: 50px;
+  font-size: 1.2em;
+}
+
+.sec_menu ul li:first-child {
+  background-color: rgb(164, 229, 255);
+}
+
+.sec_list ul {
+  width: 1050px;
+  font-size: 1.2em;
+  top: 1230px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.sec_list ul li {
+  margin-top: 12px;
+  list-style: none;
+}
+
+.sec_list ul li a {
+  color: black;
+}
+
+.num {
+  position: absolute;
+  left: 10px;
+  color: darkgray;
+  padding-right: 40px;
+}
+
+.date {
+  position: absolute;
+  left: 900px;
+  color: darkgray;
+  float: right;
+}
+
+.one {
+  position: absolute;
+  top: 1580px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: underline;
+}
+
+.sec_last ul {
+  position: absolute;
+  top: 1700px;
+  left: 50%;
+  transform: translateX(-60%);
+}
+
+.sec_last ul li {
+  list-style: none;
+  float: left;
+}
+
+.choice {
+  border-radius: 15px;
+}
+
+input {
+  margin-left: 20px;
+  font-size: 1.7em;
+}
+
+.box3 {
+  width: 80px;
+  height: 40px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 30px;
+  top: 1648px;
+  left: 880px;
+}
+
+.search {
+  width: 80px;
+  height: 32px;
+  background-color: #000;
+  border-radius: 10px;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.foot {
+  width: 100%;
+  top: 1900px;
+  position: absolute;
+  background-color: rgb(54, 53, 53);
+  height: 300px;
+  color: rgb(228, 220, 220);
+}
+
+.footmenu ul {
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  transform: translateX(-80%);
+}
+
+.footmenu ul li {
+  list-style: none;
+  float: left;
+  padding-left: 20px;
+}
+
+.footmenu ul li a {
+  color: rgb(228, 220, 220);
+}
+
+h5 {
+  position: absolute;
+  top: 55px;
+  right: 300px;
+  color: rgb(228, 220, 220);
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hr2 {
+  width: 99.8%;
+  position: absolute;
+  top: 120px;
+  border: 1px solid;
+  color: rgb(88, 88, 88);
+}
+
+.foot_text {
+  position: absolute;
+  top: 140px;
+  left: 290px;
+  font-size: 0.9em;
+  padding-top: 10px;
+}
+
+span {
+  color: rgb(61, 184, 57);
+}
+
+.call {
+  height: 40px;
+  width: 130px;
+  border: 2px solid rgb(69, 72, 218);
+  background-color: rgb(69, 72, 218);
+  border-radius: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1em;
+  font-weight: 900;
+  box-shadow: 3px 3px 5px rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.call:hover {
+  background-color: rgb(36, 36, 37);
+  border-color: rgb(36, 36, 37);
+}
