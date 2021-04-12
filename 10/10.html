@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="1400px">
+    <title>10</title>
+    <link rel="stylesheet" href="10.css">
+</head>
+<body>
+    <form class="membership">
+        <fieldset class="field1">
+        <legend>로그인 정보</legend>
+            <ul>
+                <li>
+                    <label for="userid">아이디</label>
+                    <input id="userid" name="userid" type="text" required autofocus>
+                </li>
+                <li>
+                    <label for="userpass">비밀번호</label>
+                    <input id="userid" name="userid" type="text" required autofocus>
+                </li>
+                <li>
+                    <label for="userpass2">비밀번호 확인</label>
+                    <input id="userpass2" name="userpass2" type="text" required autofocus>
+                </li>
+                <li>
+                    <label for="userlevel">회원 등급</label>
+                    <input id="userlevel" name="userlevel" type="text" readonly value="준회원">
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset class="field2">
+            <legend>개인 정보</legend>
+            <ul>
+                <li>
+                    <label for="username">이름</label>
+                    <input id="username" name="username" type="text" required autofocus placeholder="5자미만 공백없이">
+                </li>
+                <li>
+                    <label for="usermail">메일 주소</label>
+                    <input id="usermail" name="usermail" type="text" required autofocus placeholder="abcd@domain.com">
+                </li>
+                <li>
+                    <label for="usernum">연락처</label>
+                    <input id="usernum" name="usernum" type="text">
+                </li>
+        </fieldset>
+
+        <fieldset class="field3">
+            <button type="submit"> 제출 </button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

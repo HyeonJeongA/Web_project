@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  background-color: rgb(187, 187, 187);
+  padding: 30px;
+}
+
+.membership {
+  background: #fff;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 30px auto;
+}
+
+.membership legend {
+  font-size: 25px;
+}
+
+.membership fieldset {
+  padding: 15px;
+  margin: 10px;
+}
+
+.membership ul li {
+  list-style: none;
+}
+
+.membership input {
+  width: 250px;
+  height: 30px;
+  margin: 10px 0px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.membership input[required] {
+  border: 2px solid rgb(255, 86, 86);
+}
+
+.membership input[readonly] {
+  border: none;
+}
+
+.membership button {
+  border: 1px solid #222;
+  border-radius: 20px;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px; /*글씨 간격*/
+  margin: auto;
+  padding: 7px 25px;
+}
+
+.membership label {
+  float: left; /*왼쪽으로 정렬*/
+  font-size: 15px;
+  width: 110px;
+}
