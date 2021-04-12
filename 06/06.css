@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  /*이미지 꽉차게*/
+    background-attachment: fixed;  /*화면 완전 고정 - 스크롤해도 변화없음*/
+    position: relative;
+}
+
+h1 {
+    font-size: 3.8em;
+    margin-left: 400px;
+    margin-right: 15px;
+    color: rgb(233, 113, 0);
+    float: left;  /*글자 옆으로 나오게*/
+}
+
+h2 {
+    font-size: 3.8em;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: rgb(85, 41, 0);
+}
+
+#halla {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    left: 380px;
+    top:160px;
+}
+
+.hallatext {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    font-size: 2.2em;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(210, 137, 65);
+}
+
+#cheon {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    left: 650px;
+    top:160px;
+}
+
+.cheontext {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    font-size: 2.2em;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(210, 137, 65);
+}
+
+#red {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    left: 950px;
+    top:175px;
+}
+
+.redtext {
+    position: fixed;  /*화면 고정*/
+    position: absolute;
+    font-size: 2.2em;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: rgb(210, 137, 65);
+}
+
+
+
+
