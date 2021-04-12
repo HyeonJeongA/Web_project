@@ -1,0 +1,16 @@
+body {
+  border: 3px solid rgb(0, 3, 194);
+  background-color: rgb(231, 232, 253);
+}
+
+h1 {
+  margin: 50px 200px;
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
+  color: rgb(0, 3, 194);
+  font-weight: bold;
+}
