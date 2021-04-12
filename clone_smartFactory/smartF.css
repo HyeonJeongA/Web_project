@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap");
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.head_background {
+  position: relative;
+  filter: brightness(70%); /*그림 어둡게 만들기*/
+}
+
+.head_mainlogo {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+.head_menu ul {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.head_menu ul li {
+  float: left;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.head_menu ul li a {
+  color: rgb(241, 241, 241);
+  font-size: 1.1em;
+  font-weight: 620;
+}
+
+.head_maintxt {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.5em;
+  color: rgb(241, 241, 241);
+  font-weight: 800;
+  text-shadow: 2px 4px 4px rgb(70, 70, 70); /*글씨 그림자*/
+}
+
+.sec_text {
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.sec_text2 {
+  width: 680px;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.4em;
+  font-weight: 700;
+}
+
+.sec_box1 {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.sec_box1 ul {
+  position: relative;
+  top: 280px;
+}
+
+.sec_box1 ul li {
+  margin-right: 20px;
+  width: 580px;
+  height: 350px;
+  padding: 20px;
+  list-style: none;
+  float: left;
+  border: 2px solid rgb(182, 182, 182);
+  box-shadow: 2px 3px 4px rgb(196, 194, 194);
+  margin-bottom: 30px;
+}
+
+.sec_box1 ul li:hover {
+  border: 2px solid rgb(114, 135, 255);
+}
+
+.span1 {
+  color: rgb(110, 113, 255);
+  font-size: 0.7em;
+  font-weight: 900;
+}
+
+.span2 {
+  background-color: rgb(110, 113, 255);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
+  font-weight: 900;
+  padding: 5px;
+  margin-left: 6px;
+}
+
+.hone {
+  font-size: 1.3em;
+  margin-top: 20px;
+  color: rgb(14, 16, 158);
+}
+
+.htwo {
+  font-size: 1.1em;
+  margin-top: -15px;
+}
+
+.htwo2 {
+  font-size: 0.8em;
+}
+
+hr {
+  width: 580px;
+  border: 0.1px solid rgb(196, 194, 194);
+}
+
+.hthird {
+  font-size: 1.1em;
+  color: rgb(0, 2, 145);
+}
+
+.hfour {
+  font-size: 0.94em;
+}
+
+.button {
+  position: relative;
+  top: 110px;
+  left: 490px;
+  font-size: 0.8em;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.button2 {
+  position: relative;
+  top: 45px;
+  left: 490px;
+  font-size: 0.8em;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.button3 {
+  position: relative;
+  top: 80px;
+  left: 490px;
+  font-size: 0.8em;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+.button3:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.button4 {
+  position: relative;
+  top: 140px;
+  left: 490px;
+  font-size: 0.8em;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.button5 {
+  position: relative;
+  top: 50px;
+  left: 490px;
+  font-size: 0.8em;
+  padding: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+.button5:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.star1 {
+  font-size: 0.8em;
+  margin-top: -5px;
+}
+
+.star2 {
+  font-size: 0.8em;
+}
+
+.sec_blue {
+  position: absolute;
+  background-color: rgb(63, 55, 167);
+  top: 2050px;
+  height: 850px;
+  width: 100%;
+}
+
+.sec_text3 {
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.sec_text4 {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.8em;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.sec_box2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sec_box2 li {
+  list-style: none;
+  box-shadow: 3px 3px 3px rgb(70, 70, 70);
+}
+
+.sec_box2 ul li {
+  float: left;
+}
+
+.list1 {
+  position: relative;
+  top: 270px;
+  width: 300px;
+  height: 340px;
+  background-color: rgb(42, 42, 124);
+}
+
+.list2 {
+  position: relative;
+  top: 270px;
+  width: 300px;
+  height: 340px;
+  background-color: rgb(21, 21, 109);
+}
+
+.list3 {
+  position: relative;
+  top: 270px;
+  width: 300px;
+  height: 340px;
+  background-color: rgb(16, 16, 90);
+}
+
+.list4 {
+  position: relative;
+  top: 270px;
+  width: 300px;
+  height: 340px;
+  background-color: rgb(8, 8, 58);
+}
+
+.img2 {
+  position: absolute;
+  width: 80px;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.steptxt {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(241, 241, 241);
+  font-weight: 900;
+}
+
+.num {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(42, 42, 124);
+  background-color: rgb(255, 255, 255);
+  font-weight: 900;
+  border: 1px solid;
+  border-radius: 200px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.text5 {
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(241, 241, 241);
+  font-weight: 1000;
+  font-size: 1.2em;
+}
+
+.text6 {
+  position: absolute;
+  top: 270px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(241, 241, 241);
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  width: 220px;
+}
+
+.button6 {
+  position: absolute;
+  top: 660px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(69, 112, 206);
+  color: rgb(255, 255, 255);
+  width: 250px;
+  height: 50px;
+  font-size: 1.1em;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+
+.button6:hover {
+  background-color: rgb(95, 143, 248);
+}
+
+.foot_back {
+  width: 100%;
+  top: 2900px;
+  position: absolute;
+  background-color: rgb(54, 53, 53);
+  height: 300px;
+  color: rgb(228, 220, 220);
+}
+
+.footmenu ul {
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.footmenu ul li {
+  list-style: none;
+  float: left;
+  padding-left: 20px;
+}
+
+.footmenu ul li a {
+  color: rgb(228, 220, 220);
+}
+
+.button7 {
+  background-color: rgb(54, 53, 53);
+}
+
+h5 {
+  position: absolute;
+  top: 55px;
+  right: 13%;
+  color: rgb(228, 220, 220);
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hr2 {
+  width: 99.8%;
+  position: absolute;
+  top: 120px;
+  border: 1px solid rgb(99, 99, 99);
+}
+
+.text1 {
+  position: absolute;
+  top: 140px;
+  left: 33%;
+  transform: translateX(-40%);
+  font-size: 0.9em;
+  padding-top: 6px;
+}
+
+span {
+  color: rgb(61, 184, 57);
+}
+
+.call {
+  height: 40px;
+  width: 130px;
+  border: 2px solid rgb(69, 72, 218);
+  background-color: rgb(69, 72, 218);
+  border-radius: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1em;
+  font-weight: 900;
+  box-shadow: 5px 5px 8px rgb(27, 27, 27);
+  cursor: pointer;
+}
+
+.call:hover {
+  background-color: rgb(36, 36, 37);
+  border-color: rgb(36, 36, 37);
+}
