@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+body {
+  background: url("images/bg4.jpg") no-repeat fixed;
+  background-size: cover;
+  /*버튼이 항상 가운데에 표시되게 만들기!!(밑에 코드)*/
+}
+
+.btns {
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-top: 300px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 20px;
+  border-radius: 40px;
+  background-color: rgb(53, 52, 53);
+  color: rgb(226, 226, 226);
+}

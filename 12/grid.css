@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+* {
+  margin: 8px;
+  padding: 0px;
+  font-family: "Gothic A1", sans-serif;
+}
+
+body {
+  background-color: rgba(214, 195, 224, 0.342);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  ); /*자동으로 가로 꽉채우게 나오고 cup클래스의 item의 최소 너비는 320px으로 한다.*/
+  grid-gap: 1.7rem;
+}
+
+.cup {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px #222;
+}
+
+header {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+figcaption {
+  padding: 1rem;
+  line-height: 1.5em;
+}
+
+img {
+  margin-left: 30px;
+  max-width: 100%;
+}
